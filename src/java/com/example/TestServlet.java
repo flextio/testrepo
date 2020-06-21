@@ -32,6 +32,8 @@ public class TestServlet extends HttpServlet {
      */
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        
+        //Continue some editing
         response.setContentType("text/html;charset=UTF-8");
         //Same file doing a conflict
         try (PrintWriter out = response.getWriter()) {
